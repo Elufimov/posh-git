@@ -46,7 +46,7 @@ $global:GitPromptSettings = New-Object PSObject -Property @{
     EnableFileStatus          = $true
     RepositoriesInWhichToDisableFileStatus = @( ) # Array of repository paths
 
-    EnableWindowTitle         = 'posh~git ~ '
+    EnableWindowTitle         = ''
 
     Debug                     = $false
 }
